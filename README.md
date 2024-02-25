@@ -29,7 +29,7 @@ A correção dos jogos é feita de forma automática, sendo que a verificação 
 3. Inicie o servidor de desenvolvimento com `npm run dev`.
 4. Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-**Alternativamente, você pode acessar o projeto online em []()**
+**Alternativamente, você pode acessar o projeto online em [confereloteria.lelepg.app](https://confereloteria.lelepg.app/)**
 
 ## 🎯 Como usar o projeto
 
