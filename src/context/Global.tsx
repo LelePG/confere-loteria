@@ -30,7 +30,7 @@ export function GlobalProvider({ children }: { children: React.ReactNode }) {
   const [resultados, setResultados] = useState<ResultadoJogo[]>([])
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [tipoLoteria, setTipoLoteria] = useState<TiposLoteria>(Jogo.tipoLoteria);
-  const [loading, setLoading] = useState<boolean>(true); 
+  const [loading, setLoading] = useState<boolean>(false); 
 
   function mudaTipoLoteria(t: TiposLoteria) {
     setTipoLoteria(t);
